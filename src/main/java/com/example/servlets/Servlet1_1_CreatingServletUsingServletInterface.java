@@ -6,7 +6,7 @@ import jakarta.servlet.*;
 
 
 
-public class FirstServlet implements Servlet {
+public class Servlet1_1_CreatingServletUsingServletInterface implements Servlet {
 	
 	// Lifecycle Method
 	ServletConfig conf;

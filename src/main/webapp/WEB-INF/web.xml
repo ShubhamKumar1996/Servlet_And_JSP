@@ -10,17 +10,28 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 	
-	<!-- Servlet Declaration -->
-	
+	<!-- Servlet1_1 Declaration -->
 	<servlet>
 		<servlet-name>first servlet program</servlet-name>
-		<servlet-class>com.example.servlets.FirstServlet</servlet-class>
+		<servlet-class>com.example.servlets.Servlet1_1_CreatingServletUsingServletInterface</servlet-class>
 	</servlet>
 	
-	<!-- Servlet Mapping  -->
+	<!-- Servlet1_1 Mapping  -->
 	<servlet-mapping>
 		<servlet-name>first servlet program</servlet-name>
-		<url-pattern>/web</url-pattern>
+		<url-pattern>/web1</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Servlet1_2 Declaration -->
+	<servlet>
+		<servlet-name>servlet using generic class</servlet-name>
+		<servlet-class>com.example.servlets.Servlet1_2_CreatingServletUsingGenericServletClass</servlet-class>
+	</servlet>
+	
+	<!-- Servlet1_2 Mapping -->
+	<servlet-mapping>
+		<servlet-name>servlet using generic class</servlet-name>
+		<url-pattern>/web2</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
